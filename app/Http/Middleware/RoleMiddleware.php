@@ -24,7 +24,7 @@ class RoleMiddleware
             return redirect('/login');
         }
 
-        if ($request->user()->role == 'admin' || $request->user()->role == 'kasir') {
+        if ($request->user()->role == 'admin' || $request->user()->role == 'UserP') {
             return $next($request);
         }
 

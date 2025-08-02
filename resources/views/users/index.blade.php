@@ -43,7 +43,7 @@
                     <select x-model="editUserData.role" class="w-full border px-3 py-2" required>
                         <option value="">Select role</option>
                         <option value="admin">Admin</option>
-                        <option value="kasir">Kasir</option>
+                        <option value="UserP">User</option>
                     </select>
                     @else
                     <input type="text" x-model="editUserData.role" class="w-full border px-3 py-2 bg-gray-100" readonly>
